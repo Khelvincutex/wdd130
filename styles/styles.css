@@ -21,8 +21,12 @@ aside img {
     height: auto;
 }
 main img {
-    width: 150px;
-    height: auto;
+  width: 150px;
+  height: auto;
+  margin: 0 0 1em 1em; /* Add this line for positioning */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  float: right;
 }
 p { padding: 0;}
 footer {
@@ -44,13 +48,6 @@ footer {
 aside {
   width: 20em;
   text-align: center;
-}
-
-main img {
-  margin: 0 0 1em 1em;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 100%;
-  float: right;
 }
 
 aside h2 {
