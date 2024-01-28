@@ -44,6 +44,7 @@ main {
 .hero img {
     width: 100%;
     display: block;
+    height: auto;
 }
 
 h1, h2, p {
@@ -86,9 +87,4 @@ section {
 section img {
     width: 100%;
     margin-bottom: 10px;
-}
-.hero img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
