@@ -15,7 +15,7 @@
 }
 .hero {
     position: relative;
-    width: 100%;
+    width: 90%;
 }
 .hero img {
   display: block;
@@ -29,7 +29,7 @@ article {
 }
 
 article img {
-    max-width: 45%;
+    max-width: 40%;
     height: auto;
     margin-left: 1rem;
 }
@@ -46,7 +46,7 @@ section h2 {
 }
 
 section > img {
-    max-width: 50%;
+    max-width: 47%;
     height: auto;
     margin-left: 1rem;
 }
