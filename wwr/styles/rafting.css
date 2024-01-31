@@ -15,14 +15,25 @@
 }
 .hero {
     position: relative;
-    width: 90%;
+    width: 100%;
 }
 .hero img {
   display: block;
-  width: 80%;
+  width: 100%;
   height: auto;
-  float: right;
 }
+h1 {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--accent2-color);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
 article {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 1rem;
