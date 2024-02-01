@@ -20,14 +20,14 @@ aside {
 }
 
 main img {
-  width: 150;
+  width: 150px;
   height: auto;
   float: right;
 }
 aside img {
     width: 200px;
     height: auto;
-    margin: right;
+    margin-right: 10px;
 }
 main img {
     width: 250px;
