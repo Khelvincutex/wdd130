@@ -22,10 +22,11 @@
   display: block;
   width: 100%;
   height: auto;
+  float: right;
 }
 h1 {
     position: absolute;
-    top: 7%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--accent2-color);
@@ -33,18 +34,24 @@ h1 {
     padding: 10px;
     text-align: center;
     white-space: nowrap;
+    width: 100%;
 }
 
 article {
-    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: rgba(92, 108, 119, 0.8);
     padding: 1rem;
-    margin-top: 1rem;
+    width: 80%;
+    color: #ffffff;
 }
 
 article img {
     max-width: 40%;
     height: auto;
-    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 section {
