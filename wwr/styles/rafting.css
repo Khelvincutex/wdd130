@@ -28,7 +28,7 @@ h1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -0%);
     color: var(--accent2-color);
     background: rgba(0, 0, 0, 0.7);
     padding: 10px;
@@ -41,7 +41,7 @@ article {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 35%);
     background-color: rgba(92, 108, 119, 0.8);
     padding: 1rem;
     width: 80%;
