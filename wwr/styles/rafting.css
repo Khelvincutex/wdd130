@@ -147,6 +147,7 @@ header {
 nav {
 	text-align: right;
     box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 .navigation {
@@ -161,12 +162,16 @@ nav {
 .navigation a {
 	display: block;
 	color: navy;
-	padding: 20px;
+	padding: 0 10px;
 	text-decoration: none;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
 }
 
 .navigation a:hover {
-	color: #1324bb;
+	color: navy;
 	font-weight: 700;
 	text-decoration: underline;
 }
