@@ -35,6 +35,8 @@ h1 {
     text-align: center;
     white-space: nowrap;
     width: 100%;
+    font-size: 1rem;
+    font-family: Acme, Arial, sans-serif;
 }
 
 article {
@@ -59,17 +61,51 @@ section {
     color:#090909;
     padding: 1rem;
     margin-top: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.history {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-section h2 {
-    font-size: 2rem;
+.history h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
-section > img {
-    max-width: 47%;
-    height: auto;
-    margin-left: 1rem;
+.history p {
+    line-height: 1.6;
+    font-size: 16px;
 }
+h3{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 24px;
+
+
+}
+
+    .adventures {
+        display: flex;
+        flex-wrap: nowrap; /* Ensure images stay in a single row */
+        justify-content: center;
+    }
+    
+    .adventures figure {
+        margin: 5px;
+        text-align: center;
+        flex: 1 1 auto; /* Allow figures to grow and shrink as needed */
+        max-width: 100px; /* Set a maximum width for the figures */
+    }
+    
+    .adventures figure img {
+        max-width: 100%; /* Ensure images don't exceed the width of their figure container */
+        height: auto;
+    }
+    
 footer {
     background-color: var(--accent2-color);
     color:#090909;
@@ -93,4 +129,44 @@ footer a {
 footer img {
     width: 30px;
     height: auto;
+}
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 200px 4fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+nav {
+	text-align: right;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: #1324bb;
+	font-weight: 700;
+	text-decoration: underline;
 }
