@@ -80,29 +80,28 @@ section {
     line-height: 1.6;
     font-size: 16px;
 }
+
 h3{
     margin-top: 2rem;
     text-align: center;
     font-size: 24px;
-
-
 }
 
     .adventures {
         display: flex;
-        flex-wrap: nowrap; /* Ensure images stay in a single row */
+        flex-wrap: nowrap;
         justify-content: center;
     }
     
     .adventures figure {
         margin: 5px;
         text-align: center;
-        flex: 1 1 auto; /* Allow figures to grow and shrink as needed */
-        max-width: 100px; /* Set a maximum width for the figures */
+        flex: 1 1 auto;
+        max-width: 100px;
     }
     
     .adventures figure img {
-        max-width: 100%; /* Ensure images don't exceed the width of their figure container */
+        max-width: 100%;
         height: auto;
     }
     
