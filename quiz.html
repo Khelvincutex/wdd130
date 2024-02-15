@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <h1>HTML and CSS Quiz</h1>
+    <form id="quizForm">
+        <div class="questions">
+            <label for="q1">What does the acronym HTML stand for?</label><br>
+            <input type="text" id="q1" name="q1" required>
+        </div>
+
+        <div class="questions">
+            <label for="q2">What is the purpose of HTML?</label><br>
+            <textarea id="q2" name="q2" rows="4" cols="50" required></textarea>
+        </div>
+        
+        <div class="question">
+            <label for="q3">What does CSS stand for?</label><br>
+            <select id="q3" name="q3" required>
+                <option value="">Select an answer</option>
+                <option value="ul">Cascading Style Sheets</option>
+                <option value="ol">Computer Style Sheets</option>
+                <option value="li">Creative Style Sheets</option>
+                <option value="div">Computer Simple Sheet</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label for="q4">How many header tags are available in HTML?</label>
+    <input type="number" id="q4" name="q4" required>
+        </div>
+        
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+</html>
+    
