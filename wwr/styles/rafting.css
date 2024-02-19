@@ -18,6 +18,11 @@
     position: relative;
     width: 100%;
 }
+
+.hero p {
+    color: rgba(238, 243, 235, 0.8);
+    }
+    
 .hero img {
   display: block;
   width: 100%;
