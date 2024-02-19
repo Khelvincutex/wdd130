@@ -175,3 +175,62 @@ nav {
 	font-weight: 700;
 	text-decoration: underline;
 }
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.contact-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #474242;
+    background-color: #f9f9f9;
+    text-align: left;
+    .contact-form input[type="submit"] {
+        background-color: #081808;
+        color: white;
+        padding: 4px 6px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .contact-form input[type="submit"]:hover {
+        background-color: #100587e0;
+    }
+    
+}
+
+.contact-info {
+    margin-bottom: 10px;
+    text-align: left;
+    border-bottom: 2px solid #474242;
+}
+
+.employee-profiles {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.employee {
+    text-align: left;
+}
+
+.employee img {
+    display:inline block;
+    margin-right: 109x;
+    border-radius: 50%;
+}
+
+.employee p {
+    font-size: 16px;
+}
