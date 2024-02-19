@@ -194,24 +194,23 @@ p {
     border-bottom: 2px solid #474242;
     background-color: #f9f9f9;
     text-align: left;
-    .contact-form input[type="submit"] {
+}
+.contact-form input[type="submit"] {
         background-color: #081808;
         color: white;
         padding: 4px 6px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        font-size: 16px;
+        font-size: 12px;
     }
     
     .contact-form input[type="submit"]:hover {
-        background-color: #100587e0;
+        background-color: blue
     }
-    
-}
 
 .contact-info {
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     text-align: left;
     border-bottom: 2px solid #474242;
 }
