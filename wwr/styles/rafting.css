@@ -238,3 +238,49 @@ p {
 .employee p {
     font-size: 16px;
 }
+
+#cta-section {
+    background-color: #a9cbef;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+#cta-section h2 {
+    margin-bottom: 10px;
+}
+
+.trip {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.trip img {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.trip h3 {
+    color: #007bff;
+}
+
+#trip-comparison table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#trip-comparison th, #trip-comparison td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+#trip-comparison th {
+    background-color: #007bff;
+    color: #fff;
+}
