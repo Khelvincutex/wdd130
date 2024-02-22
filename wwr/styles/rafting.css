@@ -230,9 +230,7 @@ p {
 }
 
 .employee img {
-    display:inline block;
-    margin-right: 109x;
-    border-radius: 50%;
+    margin-right: 10x;
 }
 
 .employee p {
